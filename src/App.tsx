@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MainBlock from "./MainBlock/MainBlock";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	//Write an app that will allow user to search among the course lessons
+
+	// The app should contain a field where user can enter some text
+	// When a user leaves the field, the search call should be performed (see code snippet)
+	// The result should be shown upon the field as a lesson card
+	// All errors should be handled
+
+	// Code snippet:
+	// fetch('https://react-course-api.azurewebsites.net/lesson/SEARCH_KEYWORD').then(x=>x.json)
+	// where
+
+	// SEARCH_KEYWORD  is the search text from a user
+
+	return (
+		<div className="App">
+			<MainBlock />
+		</div>
+	);
 }
 
 export default App;
