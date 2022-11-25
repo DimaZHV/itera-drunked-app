@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/itera-drunked-app/static/css/main.4ef12fb3.css",
+    "main.js": "/itera-drunked-app/static/js/main.d0c6e265.js",
+    "static/js/787.99a49f0f.chunk.js": "/itera-drunked-app/static/js/787.99a49f0f.chunk.js",
+    "index.html": "/itera-drunked-app/index.html",
+    "main.4ef12fb3.css.map": "/itera-drunked-app/static/css/main.4ef12fb3.css.map",
+    "main.d0c6e265.js.map": "/itera-drunked-app/static/js/main.d0c6e265.js.map",
+    "787.99a49f0f.chunk.js.map": "/itera-drunked-app/static/js/787.99a49f0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ef12fb3.css",
+    "static/js/main.d0c6e265.js"
+  ]
+}
